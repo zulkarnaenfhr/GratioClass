@@ -1,0 +1,143 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); */
+/* font-family: 'Poppins', sans-serif; rada bold */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+/* font-family: 'Poppins', sans-serif; yang light  */
+
+#sectionHomepage4 {
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionHomepage4-Title {
+    /* margin-top: -3rem; */
+    text-align: center;
+}
+
+.cardFlashSaleRow {
+    padding-top: 2rem;
+}
+
+.flashSale-card {
+    font-family: Poppins;
+    height: 428px;
+    width: 558px;
+    border: 1px solid black;
+    background-color: #8500cc;
+    border-radius: 30px;
+}
+
+.flashSale-card-left-content {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    padding-top: 2rem;
+}
+
+.flashSale-content-row1-right {
+    /* Body Text 1/Regular */
+    font-style: normal;
+    font-size: 24px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: rgb(250, 250, 250);
+}
+
+.flashSale-card-left-content-firstRow {
+    display: flex;
+    align-items: center;
+}
+
+.flashSale-content-row1-left {
+    /* Body Text 1/Regular */
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.flashSale-content-row2-left {
+    font-size: 20px;
+}
+
+.flashSale-content-row3-left {
+    font-size: 52px;
+    line-height: 1;
+    font-weight: 900;
+    padding-left: 1.5rem;
+}
+
+.flashSale-content-row3-right {
+    display: flex;
+    justify-content: right;
+}
+
+.flashSale-content-row3-right-container {
+    height: 100px;
+    width: 244px;
+    border-radius: 30px 0px 0px 30px;
+    background: #610094;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flashSale-price {
+    padding-top: 1rem;
+    color: white;
+    font-weight: 800;
+    font-size: 34px;
+}
+
+.flashSale-price span {
+    text-decoration: line-through red;
+    color: #8500cc;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.flashSale-content-row4{
+    font-size: 13px;
+}
+
+.flashSale-card-right-content {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.flashSale-card-right-content-row1 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.flashSale-card-right-content-row2 {
+    /* Auto Layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+
+    /* Primary/50 */
+    background: #610094;
+    border-radius: 40px;
+
+    /* TANGGALTUA */
+
+    /* Display 2/Regular */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 120%;
+    /* or 62px */
+    letter-spacing: 0.005em;
+}
+
+.flashSale-card-right-content-row3 {
+    font-weight: 600;
+    font-size: 20px;
+}

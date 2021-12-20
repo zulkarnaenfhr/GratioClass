@@ -1,0 +1,23 @@
+#sectionHomepage2 {
+    height: 75vh;
+}
+
+#sectionHomepage2-LeftSide {
+    display: flex;
+    height: 90vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#sectionHomepage2-RightSide {
+    display: flex;
+    height: 90vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionHomepage2-RightSide-Row {
+    width: 100%;
+}

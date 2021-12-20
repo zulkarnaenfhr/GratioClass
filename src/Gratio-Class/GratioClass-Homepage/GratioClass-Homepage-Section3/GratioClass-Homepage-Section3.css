@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+#sectionHomepage3 {
+    height: 50vh;
+    background-color: #8500cc;
+}
+
+.sectionHomepage3-container {
+    padding-top: 3rem;
+    color: white;
+}
+
+.sectionHomepage3-Title {
+    text-align: center;
+}
+
+.card-class-container {
+    width: 279px;
+    height: 226px;
+}
+
+.card-row-container{
+    padding-top: 2rem;
+}
+
+.cardUiUx {
+    /* background-image: url("UiUxDesain.png"); */
+    background: linear-gradient(0deg, rgba(133, 0, 204, 0.3), rgba(133, 0, 204, 0.3)), url("UiUxDesain.png");
+}
+
+.cardGraphicDesign {
+    background: linear-gradient(0deg, rgba(133, 0, 204, 0.3), rgba(133, 0, 204, 0.3)), url("GraphicDesign.png");
+}
+
+.cardDesign3D {
+    background: linear-gradient(0deg, rgba(133, 0, 204, 0.3), rgba(133, 0, 204, 0.3)), url("Design3D.png");
+}
+
+.cardVideoEditing {
+    background: linear-gradient(0deg, rgba(133, 0, 204, 0.3), rgba(133, 0, 204, 0.3)), url("VideoEditing.png");
+}
+
+.card-title {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+}
