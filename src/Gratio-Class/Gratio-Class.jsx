@@ -5,6 +5,7 @@ import GratioClassClass from "./GratioClass-Class/GratioClass-Class";
 import Event from "./GratioClass-Event/GratioClass-Event";
 import HomePage from "./GratioClass-Homepage/GratioClass-Homepage";
 import Showcase from "./GratioClass-Showcase/GratioClass-Showcase";
+import "./Gratio-Class.css";
 
 export default class GratioClass extends Component {
     render() {
@@ -21,7 +22,7 @@ export default class GratioClass extends Component {
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <Link to="/HomePage">Home</Link>
+                                    <Link to="/">Home</Link>
                                 </li>
                                 <li class="nav-item">
                                     <Link to="/Class">Class</Link>
@@ -43,12 +44,11 @@ export default class GratioClass extends Component {
                     </div>
                 </nav>
                 <Routes>
-                    <Route path="/HomePage" element={<HomePage />} />
+                    <Route path="/" element={<HomePage />} />
                     <Route path="/Class" element={<GratioClassClass />} />
                     <Route path="/Showcase" element={<Showcase />} />
                     <Route path="/Event" element={<Event />} />
                 </Routes>
-                <h1>masuk</h1>
             </div>
         );
     }

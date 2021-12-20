@@ -1,0 +1,57 @@
+#sectionHomepage1 {
+    height: 90vh;
+    background-color: #8500cc;
+}
+
+#sectionHomepage1-LeftSide {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionHomepage1-Brand {
+    color: white;
+}
+.sectionHomepage1-shortDesc {
+    color: white;
+}
+
+/* time to responsive  */
+@media only screen and (max-width: 1400px) {
+}
+@media only screen and (max-width: 995px) {
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 586px) {
+}
+@media only screen and (max-width: 392px) {
+    .sectionHomepage1-Brand {
+        color: white;
+    }
+    .sectionHomepage1-button {
+        /* Primary/90 */
+        background: #350052;
+        opacity: 0.8;
+        border-radius: 36px;
+
+        /* Get Started */
+
+        position: static;
+        width: 123px;
+        height: 43px;
+        left: 30px;
+        top: 14.5px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 23px;
+
+        color: #ffffff;
+    }
+}
+/* end of responsive  */

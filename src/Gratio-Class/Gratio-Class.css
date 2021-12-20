@@ -9,7 +9,7 @@
 }
 
 .navbar {
-    height: 90px;
+    height: 10vh;
     background-color: #610094;
 }
 
@@ -40,5 +40,5 @@
 }
 
 .nav-profile {
-    margin-left: 10rem;
+    margin-left: 35rem;
 }
