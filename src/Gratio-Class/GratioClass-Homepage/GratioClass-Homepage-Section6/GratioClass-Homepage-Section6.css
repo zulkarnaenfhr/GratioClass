@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+#sectionHomepage6 {
+    height: 45vh;
+}
+
+.sectionHomepage6-container{
+    padding-top: 3rem;
+}
+
+.sectionHomepage6-Title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+}

@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+/* font-family: 'Poppins', sans-serif; */
+
+#sectionHomepage5 {
+    height: 90vh;
+    background-color: #8500cc;
+}
+
+.sectionHomepage5-container {
+    color: white;
+    padding-top: 3rem;
+}
