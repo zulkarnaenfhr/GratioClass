@@ -20,6 +20,9 @@
 
 /* time to responsive  */
 @media only screen and (max-width: 1400px) {
+    #sectionHomepage1-RightSide{
+        display: none;
+    }
 }
 @media only screen and (max-width: 995px) {
 }
@@ -36,8 +39,6 @@
         background: #350052;
         opacity: 0.8;
         border-radius: 36px;
-
-        /* Get Started */
 
         position: static;
         width: 123px;

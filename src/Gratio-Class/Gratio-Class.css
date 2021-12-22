@@ -8,7 +8,11 @@
     text-decoration: none;
 }
 
-.navbar {
+.GratioBrand:hover {
+    color: #9f00f5;
+}
+
+.navbar-custom {
     height: 10vh;
     background-color: #610094;
 }
@@ -42,3 +46,68 @@
 .nav-profile {
     margin-left: 35rem;
 }
+
+/* time to responsive  */
+@media only screen and (max-width: 1400px) {
+}
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 995px) {
+    .navbar-custom {
+        height: 6vh;
+    }
+    .nav-profile {
+        margin-left: 90vw;
+    }
+    .navbar-nav {
+        padding-top: 1.5rem;
+        margin-left: -11rem;
+        width: 110vw;
+        background-color: #610094;
+    }
+    .nav-item a {
+        padding-left: 5rem;
+        color: white;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .navbar-nav {
+        padding-top: 1.5rem;
+        margin-left: -9rem;
+        width: 110vw;
+        background-color: #610094;
+    }
+    .nav-profile {
+        margin-left: 90vw;
+        margin-top: -2rem;
+    }
+    .nav-item a {
+        padding-left: 3rem;
+        color: white;
+    }
+}
+@media only screen and (max-width: 586px) {
+    .navbar-custom {
+        height: 70px;
+    }
+    .nav-profile {
+        margin-left: 45vh;
+    }
+}
+@media only screen and (max-width: 392px) {
+    .navbar-custom {
+        height: 70px;
+    }
+    .nav-profile {
+        margin-left: 90vw;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .navbar-custom {
+        height: 70px;
+    }
+    .nav-profile {
+        margin-left: 90vw;
+    }
+}
+/* end of responsive  */

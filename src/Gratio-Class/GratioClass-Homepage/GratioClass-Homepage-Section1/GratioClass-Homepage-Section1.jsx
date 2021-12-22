@@ -7,7 +7,7 @@ export default class GratioClassHomepageSection1 extends Component {
             <div id="sectionHomepage1">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-6">
+                        <div className="col-xl-6 col-lg-12">
                             <div id="sectionHomepage1-LeftSide">
                                 <div>
                                     <h1 className="sectionHomepage1-Brand">Gratio Class</h1>
@@ -16,7 +16,7 @@ export default class GratioClassHomepageSection1 extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-xl-6 col-lg-12">
                             <div id="sectionHomepage1-RightSide">
                                 <h1>gambar</h1>
                             </div>

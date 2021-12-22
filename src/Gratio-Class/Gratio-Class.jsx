@@ -11,7 +11,7 @@ export default class GratioClass extends Component {
     render() {
         return (
             <div>
-                <nav class="navbar navbar-expand-lg ">
+                <nav class="navbar navbar-expand-lg navbar-custom navbar navbar-dark">
                     <div class="container">
                         <a class="GratioBrand" href="#">
                             Gratio Class
@@ -19,7 +19,7 @@ export default class GratioClass extends Component {
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
+                        <div class="collapse navbarCollapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
                                     <Link to="/">Home</Link>
