@@ -13,6 +13,7 @@
 
 .sectionHomepage1-Brand {
     color: white;
+    font-weight: 600;
 }
 .sectionHomepage1-shortDesc {
     color: white;
@@ -20,15 +21,31 @@
 
 /* time to responsive  */
 @media only screen and (max-width: 1400px) {
-    #sectionHomepage1-RightSide{
+    #sectionHomepage1-RightSide {
         display: none;
     }
 }
 @media only screen and (max-width: 995px) {
+    .sectionHomepage1-Brand {
+        color: white;
+        font-size: 55px;
+    }
+    .sectionHomepage1-shortDesc {
+        font-size: 20px;
+        width: 70%;
+    }
 }
 @media only screen and (max-width: 768px) {
 }
 @media only screen and (max-width: 586px) {
+    .sectionHomepage1-Brand {
+        color: white;
+        font-size: 35px;
+    }
+    .sectionHomepage1-shortDesc {
+        font-size: 16px;
+        width: 80%;
+    }
 }
 @media only screen and (max-width: 392px) {
     .sectionHomepage1-Brand {

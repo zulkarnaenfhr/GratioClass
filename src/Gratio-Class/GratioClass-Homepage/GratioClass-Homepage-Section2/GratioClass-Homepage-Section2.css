@@ -1,5 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 #sectionHomepage2 {
     height: 75vh;
+    font-family: "Poppins", sans-serif;
+}
+
+.sectionHomepage2-title {
+    font-weight: 600;
 }
 
 #sectionHomepage2-LeftSide {
@@ -21,3 +28,91 @@
 .sectionHomepage2-RightSide-Row {
     width: 100%;
 }
+
+.gratioFeatures i {
+    color: #8500cc;
+    font-size: 50px;
+}
+
+.gratioFeatures h3 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.gratioFeatures p {
+    font-size: 17px;
+}
+
+/* time to responsive  */
+@media only screen and (max-width: 1400px) {
+}
+@media only screen and (max-width: 995px) {
+    #sectionHomepage2-LeftSide {
+        height: 40vh;
+    }
+    #sectionHomepage2-RightSide {
+        height: 40vh;
+    }
+    .sectionHomepage-content {
+        padding-top: 10rem;
+    }
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 586px) {
+    #sectionHomepage2-LeftSide {
+        height: 40vh;
+        text-align: center;
+    }
+
+    #sectionHomepage2-RightSide {
+        height: 40vh;
+        padding-top: 10rem;
+    }
+
+    .sectionHomepage-content {
+        padding-top: 0rem;
+    }
+
+    .gratioFeatures {
+        display: flex;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 450px) {
+    #sectionHomepage2-RightSide {
+        height: 40vh;
+        padding-top: 15rem;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    #sectionHomepage2-RightSide {
+        height: 40vh;
+        padding-top: 12rem;
+    }
+}
+
+@media only screen and (max-width: 365px) {
+    #sectionHomepage2-RightSide {
+        height: 40vh;
+        padding-top: 20rem;
+    }
+    .gratioFeatures i {
+        color: #8500cc;
+        font-size: 50px;
+    }
+
+    .gratioFeatures h3 {
+        font-weight: 600;
+        font-size: 35px;
+    }
+
+    .gratioFeatures p {
+        font-size: 17px;
+    }
+}
+/* end of responsive  */
