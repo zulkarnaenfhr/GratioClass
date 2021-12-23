@@ -19,6 +19,27 @@
     color: white;
 }
 
+.sectionHomepage1-button {
+    /* Primary/90 */
+    background: #350052;
+    opacity: 0.8;
+    border-radius: 36px;
+
+    position: static;
+    width: 123px;
+    height: 43px;
+    left: 30px;
+    top: 14.5px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 23px;
+
+    color: #ffffff;
+}
+
 /* time to responsive  */
 @media only screen and (max-width: 1400px) {
     #sectionHomepage1-RightSide {
@@ -50,26 +71,6 @@
 @media only screen and (max-width: 392px) {
     .sectionHomepage1-Brand {
         color: white;
-    }
-    .sectionHomepage1-button {
-        /* Primary/90 */
-        background: #350052;
-        opacity: 0.8;
-        border-radius: 36px;
-
-        position: static;
-        width: 123px;
-        height: 43px;
-        left: 30px;
-        top: 14.5px;
-
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 15px;
-        line-height: 23px;
-
-        color: #ffffff;
     }
 }
 /* end of responsive  */

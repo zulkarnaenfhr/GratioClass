@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 /* font-family: 'Poppins', sans-serif; */
 
 #sectionHomepage3 {
@@ -20,7 +20,7 @@
     height: 226px;
 }
 
-.card-row-container{
+.card-row-container {
     padding-top: 2rem;
 }
 
@@ -48,7 +48,145 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 900;
     font-size: 35px;
 }
+
+/* time to responsive  */
+@media only screen and (max-width: 1200px) {
+    #sectionHomepage3 {
+        height: 700px;
+        background-color: #8500cc;
+    }
+    .card-title {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-size: 35px;
+    }
+    .cardRowMd2 {
+        padding-top: 35px;
+    }
+    .card-row-container {
+        padding-left: 55px;
+    }
+    .cardMdSide {
+        padding-left: 115px;
+    }
+}
+@media only screen and (max-width: 905px) {
+    #sectionHomepage3 {
+        height: 700px;
+        background-color: #8500cc;
+    }
+    .cardRowMd2 {
+        padding-top: 35px;
+    }
+    .card-row-container {
+        padding-left: 35px;
+    }
+    .cardMdSide {
+        padding-left: 0px;
+    }
+}
+@media only screen and (max-width: 880px) {
+    #sectionHomepage3 {
+        height: 700px;
+        background-color: #8500cc;
+    }
+}
+@media only screen and (max-width: 898px) {
+    #sectionHomepage3 {
+        height: 700px;
+        background-color: #8500cc;
+    }
+}
+@media only screen and (max-width: 828px) {
+    #sectionHomepage3 {
+        height: 700px;
+        background-color: #8500cc;
+    }
+}
+@media only screen and (max-width: 798px) {
+    #sectionHomepage3 {
+        height: 700px;
+        background-color: #8500cc;
+    }
+}
+@media only screen and (max-width: 586px) {
+    #sectionHomepage3 {
+        height: 1200px;
+    }
+    .card-row-container {
+        padding-left: 60px;
+        display: flex;
+    }
+    .cardMdSide {
+        padding-left: 12px;
+    }
+    .cardSGraphicDesign {
+        padding-top: 35px;
+    }
+}
+@media only screen and (max-width: 392px) {
+    #sectionHomepage3 {
+        height: 1500px;
+    }
+    .card-row-container {
+        padding-left: 47px;
+        display: flex;
+    }
+}
+@media only screen and (max-width: 380px) {
+    #sectionHomepage3 {
+        height: 1000px;
+    }
+    .card-row-container {
+        padding-left: 36px;
+        display: flex;
+    }
+
+    .card-class-container {
+        width: 223.2px;
+        height: 180.8px;
+    }
+    .cardUiUx {
+        /* background-image: url("UiUxDesain.png"); */
+        background: linear-gradient(0deg, rgba(133, 0, 204, 0.3), rgba(133, 0, 204, 0.3)), url("UiUxDesain.png");
+        border-radius: 10%;
+    }
+
+    .cardGraphicDesign {
+        background: linear-gradient(0deg, rgba(133, 0, 204, 0.3), rgba(133, 0, 204, 0.3)), url("GraphicDesign.png");
+        border-radius: 10%;
+    }
+
+    .cardDesign3D {
+        background: linear-gradient(0deg, rgba(133, 0, 204, 0.3), rgba(133, 0, 204, 0.3)), url("Design3D.png");
+        border-radius: 10%;
+    }
+
+    .cardVideoEditing {
+        background: linear-gradient(0deg, rgba(133, 0, 204, 0.3), rgba(133, 0, 204, 0.3)), url("VideoEditing.png");
+        border-radius: 10%;
+    }
+
+    .card-title {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-size: 28px;
+    }
+}
+/* end of responsive  */
