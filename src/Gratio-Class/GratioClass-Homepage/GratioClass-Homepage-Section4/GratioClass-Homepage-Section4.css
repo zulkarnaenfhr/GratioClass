@@ -4,14 +4,13 @@
 /* font-family: 'Poppins', sans-serif; yang light  */
 
 #sectionHomepage4 {
-    height: 75vh;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .sectionHomepage4-Title {
-    /* margin-top: -3rem; */
     text-align: center;
 }
 
@@ -31,7 +30,7 @@
 .flashSale-card-left-content {
     color: white;
     font-family: "Poppins", sans-serif;
-    padding-top: 2rem;
+    padding-top: 70px;
 }
 
 .flashSale-content-row1-right {
@@ -69,6 +68,7 @@
 .flashSale-content-row3-right {
     display: flex;
     justify-content: right;
+    margin-top: -30px;
 }
 
 .flashSale-content-row3-right-container {
@@ -95,7 +95,7 @@
     font-size: 24px;
 }
 
-.flashSale-content-row4{
+.flashSale-content-row4 {
     font-size: 13px;
 }
 
@@ -141,3 +141,152 @@
     font-weight: 600;
     font-size: 20px;
 }
+
+/* time to responsive  */
+@media only screen and (max-width: 1400px) {
+    .flashSale-card {
+        transform: scale(0.9);
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .flashSale-card {
+        transform: scale(0.75);
+    }
+    .flashSale-card-left-container {
+        margin-left: -65px;
+    }
+    .flashSale-card-right-container {
+        margin-left: -40px;
+    }
+}
+@media only screen and (max-width: 995px) {
+    .cardFlashSaleRow {
+        margin-top: -80px;
+    }
+    #sectionHomepage4 {
+        height: 480px;
+    }
+    .flashSale-card {
+        transform: scale(0.65);
+    }
+    .flashSale-card-left-container {
+        margin-left: -130px;
+    }
+    .flashSale-card-right-container {
+        margin-left: -90px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .flashSale-card {
+        transform: scale(0.58);
+    }
+    .sectionHomepage4-container {
+        margin-top: 350px;
+    }
+    .cardFlashSaleRow {
+        margin-left: -90px;
+        margin-top: -90px;
+    }
+    .flashSale-card-left-container {
+        margin-left: 0px;
+    }
+    .flashSale-card-right-container {
+        margin-left: 0px;
+        margin-top: -120px;
+    }
+}
+@media only screen and (max-width: 430px) {
+    .cardFlashSaleRow {
+        margin-left: -85px;
+        margin-top: -90px;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .cardFlashSaleRow {
+        margin-left: -95px;
+        margin-top: -90px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .flashSale-card {
+        transform: scale(0.54);
+    }
+    .sectionHomepage4-container {
+        margin-top: 300px;
+    }
+    .cardFlashSaleRow {
+        margin-left: -108px;
+        margin-top: -120px;
+    }
+    .flashSale-card-left-container {
+        margin-left: 0px;
+    }
+    .flashSale-card-right-container {
+        margin-left: 0px;
+        margin-top: -160px;
+    }
+}
+@media only screen and (max-width: 382px) {
+    .flashSale-card {
+        transform: scale(0.54);
+    }
+    .sectionHomepage4-container {
+        margin-top: 300px;
+    }
+    .cardFlashSaleRow {
+        margin-left: -115px;
+        margin-top: -120px;
+    }
+    .flashSale-card-left-container {
+        margin-left: 0px;
+    }
+    .flashSale-card-right-container {
+        margin-left: 0px;
+        margin-top: -160px;
+    }
+}
+
+@media only screen and (max-width: 365px) {
+    .flashSale-card {
+        transform: scale(0.51);
+    }
+    .sectionHomepage4-container {
+        margin-top: 300px;
+    }
+    .cardFlashSaleRow {
+        margin-left: -123px;
+        margin-top: -120px;
+    }
+    .flashSale-card-left-container {
+        margin-left: 0px;
+    }
+    .flashSale-card-right-container {
+        margin-left: 0px;
+        margin-top: -170px;
+    }
+}
+
+@media only screen and (max-width: 335px) {
+    .flashSale-card {
+        transform: scale(0.47);
+    }
+    #sectionHomepage4 {
+        height: 300px;
+    }
+    .sectionHomepage4-container {
+        margin-top: 400px;
+    }
+    .cardFlashSaleRow {
+        margin-left: -143px;
+        margin-top: -120px;
+    }
+    .flashSale-card-left-container {
+        margin-left: 0px;
+    }
+    .flashSale-card-right-container {
+        margin-left: 0px;
+        margin-top: -190px;
+    }
+}
+
+/* end of responsive  */

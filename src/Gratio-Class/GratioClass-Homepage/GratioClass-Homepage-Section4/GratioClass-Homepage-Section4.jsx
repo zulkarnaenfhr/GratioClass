@@ -5,18 +5,16 @@ export default class GratioClassHomepageSection4 extends Component {
     render() {
         return (
             <div id="sectionHomepage4">
-                <div className="container">
-                    <div className="sectionHomepage4-container">
-                        <h1 className="sectionHomepage4-Title">Flash Sale Today</h1>
-                    </div>
+                <div className="container sectionHomepage4-container">
+                    <h1 className="sectionHomepage4-Title">Flash Sale Today</h1>
                     <div className="row cardFlashSaleRow">
-                        <div className="col-md-6">
-                            <div className="flashSale-card">
+                        <div className="col-md-6 flashSaleCardLeft">
+                            <div className="flashSale-card flashSale-card-left-container">
                                 <div className="flashSale-card-left-content">
                                     <div className="row container flashSale-card-left-content-firstRow">
                                         <div className="col-4">
                                             <p className="flashSale-content-row1-left">
-                                                Lorem, <br /> ipsum.
+                                                Gratio <br /> Class.
                                             </p>
                                         </div>
                                         <div className="col-8">
@@ -45,8 +43,8 @@ export default class GratioClassHomepageSection4 extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
-                            <div className="flashSale-card">
+                        <div className="col-md-6 flashSaleCardRight">
+                            <div className="flashSale-card flashSale-card-right-container">
                                 <div className="container flashSale-card-right-content">
                                     <div>
                                         <p className="flashSale-card-right-content-row1">KODE KUPON :</p>

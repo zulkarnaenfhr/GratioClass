@@ -6,6 +6,7 @@
     font-size: 26px;
     color: white;
     text-decoration: none;
+    line-height: 30px;
 }
 
 .GratioBrand:hover {
@@ -13,7 +14,7 @@
 }
 
 .navbar-custom {
-    height: 10vh;
+    height: 80px;
     background-color: #610094;
 }
 
@@ -49,8 +50,17 @@
 
 /* time to responsive  */
 @media only screen and (max-width: 1400px) {
+    .nav-profile {
+        margin-left: 400px;
+    }
 }
 @media only screen and (max-width: 1200px) {
+    .nav-profile {
+        margin-left: 270px;
+    }
+    .GratioBrand{
+        line-height: 25px;
+    }
 }
 @media only screen and (max-width: 995px) {
     .navbar-custom {
