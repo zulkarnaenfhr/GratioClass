@@ -15,8 +15,8 @@ class HomePage extends Component {
                 <GratioClassHomepageSection2 />
                 <GratioClassHomepageSection3 />
                 <GratioClassHomepageSection4 />
-                {/* <GratioClassHomepageSection5 />
-                <GratioClassHomepageSection6 />
+                <GratioClassHomepageSection5 />
+                {/* <GratioClassHomepageSection6 />
                 <GratioClassFooter /> */}
             </div>
         );

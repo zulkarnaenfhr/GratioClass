@@ -7,11 +7,11 @@ const CarouselContainer = (props) => {
             <div className="carousel-container">
                 <div className="container">
                     <div className="row carousel-content">
-                        <div className="col-2"></div>
-                        <div className="col-4 carousel-content-left">
+                        <div className="col-lg-2"></div>
+                        <div className="col-lg-4 carousel-content-left">
                             <img className="WhatTheySay-img" src={props.imgSrc} alt={props.imgSrc} />
                         </div>
-                        <div className="col-5 carousel-content-right">
+                        <div className="col-lg-5 carousel-content-right">
                             <p className="testimoni">{props.testimoni}</p>
                             <p className="testimoniName">
                                 {props.nama}, <span>{props.umur}</span>

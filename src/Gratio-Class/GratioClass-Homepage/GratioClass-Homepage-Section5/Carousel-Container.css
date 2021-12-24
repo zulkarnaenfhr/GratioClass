@@ -3,7 +3,8 @@
 
 .carousel-container {
     font-family: "Poppins", sans-serif;
-    height: 65vh;
+    height: 530px;
+    width: 100%;
 }
 
 .carousel-content {
@@ -11,6 +12,7 @@
 }
 
 .WhatTheySay-img {
+    border-radius: 20px;
     height: 400px;
     width: 400px;
 }
@@ -32,3 +34,102 @@
 .testimoniPekerjaan {
     font-size: 22px;
 }
+
+/* time to responsive  */
+@media only screen and (max-width: 1400px) {
+    .carousel-container {
+        transform: scale(0.89);
+    }
+    .carousel-content-left {
+        margin-left: -100px;
+    }
+    .carousel-content-right {
+        margin-left: 100px;
+        padding-right: 1px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .carousel-content-left {
+        margin-left: -150px;
+    }
+    .carousel-content-right {
+        margin-left: 200px;
+        padding-right: 1px;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    .carousel-content-right {
+        margin-left: 170px;
+    }
+}
+@media only screen and (max-width: 995px) {
+    .carousel-container {
+        transform: scale(0.7);
+    }
+    .carousel-content-right {
+        margin-left: 470px;
+        padding-right: 1px;
+        margin-top: -400px;
+    }
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 586px) {
+    .carousel-content-right {
+        margin-top: 0px;
+        margin-left: 0px;
+        text-align: justify;
+    }
+    .carousel-content-left {
+        margin-left: 0px;
+    }
+    .WhatTheySay-img {
+        transform: scale(0.8);
+    }
+    .testimoniName {
+        margin-top: 130px;
+        text-align: center;
+    }
+    .testimoni {
+        font-size: 24px;
+        height: 100px;
+    }
+    .testimoniPekerjaan {
+        text-align: center;
+        margin-top: -10px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .carousel-content-right {
+        margin-top: -20px;
+        margin-left: -20px;
+        text-align: justify;
+    }
+    .WhatTheySay-img {
+        transform: scale(0.7);
+    }
+    .carousel-content-left {
+        margin-left: -20px;
+    }
+}
+@media only screen and (max-width: 382px) {
+    #carouselExampleCaptions {
+        transform: scale(0.9);
+    }
+}
+@media only screen and (max-width: 363px) {
+    #carouselExampleCaptions {
+        margin-left: -25px;
+        transform: scale(0.83);
+    }
+    .carousel-content-left {
+        margin-top: -70px;
+    }
+}
+@media only screen and (max-width: 350px) {
+    #carouselExampleCaptions {
+        transform: scale(0.78);
+        margin-left: -45px;
+    }
+}
+/* end of responsive  */

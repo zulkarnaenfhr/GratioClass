@@ -221,6 +221,10 @@
         margin-left: -85px;
         margin-top: -90px;
     }
+    #sectionHomepage4 {
+        height: 1000px;
+        margin-top: -250px;
+    }
 }
 @media only screen and (max-width: 420px) {
     .cardFlashSaleRow {
@@ -292,10 +296,10 @@
         transform: scale(0.47);
     }
     #sectionHomepage4 {
-        height: 300px;
+        height: 900px;
     }
     .sectionHomepage4-container {
-        margin-top: 400px;
+        margin-top: 290px;
     }
     .cardFlashSaleRow {
         margin-left: -143px;

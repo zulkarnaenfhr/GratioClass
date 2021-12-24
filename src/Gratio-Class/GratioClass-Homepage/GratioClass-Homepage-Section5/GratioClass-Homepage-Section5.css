@@ -2,7 +2,7 @@
 /* font-family: 'Poppins', sans-serif; */
 
 #sectionHomepage5 {
-    height: 90vh;
+    height: 800px;
     background-color: #8500cc;
 }
 
@@ -10,3 +10,89 @@
     color: white;
     padding-top: 3rem;
 }
+
+/* time to responsive  */
+@media only screen and (max-width: 1200px) {
+    .carousel {
+        width: 115%;
+        margin-left: -70px;
+    }
+    #sectionHomepage5 {
+        height: 650px;
+    }
+    .sectionHomepage5-container {
+        color: white;
+        padding-top: 3rem;
+    }
+    #carouselExampleCaptions {
+        margin-top: -70px;
+    }
+}
+@media only screen and (max-width: 995px) {
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 586px) {
+    .carousel {
+        margin-left: 0px;
+        width: 4100px;
+        height: 800px;
+    }
+    #carouselExampleCaptions {
+        margin-top: -120px;
+        width: 391px;
+    }
+    .sectionHomepage5-Title {
+        width: 100%;
+        text-align: center;
+    }
+    .carousel-inner {
+        height: 660px;
+    }
+    #carouselExampleCaptions {
+        height: 690px;
+    }
+    #sectionHomepage5 {
+        height: 715px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .carousel {
+        margin-left: -10px;
+        width: 400px;
+        height: 800px;
+    }
+    .carousel-inner {
+        height: 660px;
+    }
+    #carouselExampleCaptions {
+        height: 685px;
+    }
+    #sectionHomepage5 {
+        height: 710px;
+    }
+}
+@media only screen and (max-width: 363px) {
+    .carousel-inner {
+        height: 660px;
+    }
+    #carouselExampleCaptions {
+        height: 625px;
+    }
+    #sectionHomepage5 {
+        height: 630px;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .carousel-inner {
+        height: 660px;
+    }
+    #carouselExampleCaptions {
+        height: 600px;
+    }
+    #sectionHomepage5 {
+        height: 605px;
+    }
+}
+
+/* end of responsive  */
