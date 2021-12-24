@@ -20,57 +20,6 @@ export default class GratioClassHomepageSection5 extends Component {
                                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                             </div>
                             <div class="carousel-inner">
-                                {/* <div class="carousel-item active">
-                                    <div className="carousel-container">
-                                        <div className="container">
-                                            <div className="row carousel-content">
-                                                <div className="col-2"></div>
-                                                <div className="col-4 carousel-content-left">
-                                                    <img className="WhatTheySay-img" src="https://i.ibb.co/zs6tnnt/Trisia.jpg" alt="https://i.ibb.co/zs6tnnt/Trisia.jpg" />
-                                                </div>
-                                                <div className="col-5 carousel-content-right">
-                                                    <p className="testimoni">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate in animi corrupti non, dolor doloremque obcaecati totam quo veniam accusamus.</p>
-                                                    <p className="testimoniName">Trisia Jo, 21</p>
-                                                    <p className="testimoniPekerjaan">UI / UX Designer</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div className="carousel-container">
-                                        <div className="container">
-                                            <div className="row carousel-content">
-                                                <div className="col-2"></div>
-                                                <div className="col-4 carousel-content-left">
-                                                    <img className="WhatTheySay-img" src="https://i.ibb.co/HxQDY3w/Maman.png" alt="https://i.ibb.co/HxQDY3w/Maman.png" />
-                                                </div>
-                                                <div className="col-5 carousel-content-right">
-                                                    <p className="testimoni">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate in animi corrupti non, dolor doloremque obcaecati totam quo veniam accusamus.</p>
-                                                    <p className="testimoniName">Maman, 24</p>
-                                                    <p className="testimoniPekerjaan">Graphic Designer</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div className="carousel-container">
-                                        <div className="container">
-                                            <div className="row carousel-content">
-                                                <div className="col-2"></div>
-                                                <div className="col-4 carousel-content-left">
-                                                    <img className="WhatTheySay-img" src="https://i.ibb.co/xDh0387/Windy.jpg" alt="https://i.ibb.co/xDh0387/Windy.jpg" />
-                                                </div>
-                                                <div className="col-5 carousel-content-right">
-                                                    <p className="testimoni">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate in animi corrupti non, dolor doloremque obcaecati totam quo veniam accusamus.</p>
-                                                    <p className="testimoniName">Windy, 22</p>
-                                                    <p className="testimoniPekerjaan">Motion Graphic</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> */}
                                 <CarouselContainer
                                     addClass="active"
                                     imgSrc="https://i.ibb.co/zs6tnnt/Trisia.jpg"
