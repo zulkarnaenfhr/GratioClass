@@ -53,6 +53,9 @@
     .sectionHomepage6-2-desc {
         margin-top: -1rem;
     }
+    #sectionHomepage6 {
+        height: 440px;
+    }
 }
 @media only screen and (max-width: 790px) {
     .sectionHomepage6-container {
@@ -66,16 +69,32 @@
     .sectionHomepage6-Title {
         margin-top: -0.7rem;
     }
+    #sectionHomepage6 {
+        height: 640px;
+    }
 }
+
+@media only screen and (max-width: 420px) {
+    #sectionHomepage6 {
+        height: 680px;
+    }
+}
+
 @media only screen and (max-width: 400px) {
     .sectionHomepage6-Title {
         margin-top: -0.2rem;
     }
+    #sectionHomepage6 {
+        height: 720px;
+    }
 }
-@media only screen and (max-width: 392px) {
+
+@media only screen and (max-width: 380px) {
+    #sectionHomepage6 {
+        height: 740px;
+    }
 }
-@media only screen and (max-width: 392px) {
-}
+
 @media only screen and (max-width: 392px) {
 }
 /* end of responsive  */
