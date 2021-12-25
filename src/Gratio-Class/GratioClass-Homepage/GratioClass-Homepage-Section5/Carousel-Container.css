@@ -19,6 +19,7 @@
 
 .carousel-content-right {
     padding-right: 7rem;
+    text-align: justify;
 }
 
 .testimoni {
@@ -72,16 +73,27 @@
         margin-top: -400px;
     }
 }
+@media only screen and (max-width: 900px) {
+    .carousel-content-right {
+        margin-left: 370px;
+        width: 60%;
+    }
+    .carousel-content-left {
+        margin-left: -90px;
+    }
+}
+
 @media only screen and (max-width: 768px) {
 }
 @media only screen and (max-width: 586px) {
     .carousel-content-right {
         margin-top: 0px;
         margin-left: 0px;
+        width: 100%;
         text-align: justify;
     }
     .carousel-content-left {
-        margin-left: 0px;
+        margin-left: -10px;
     }
     .WhatTheySay-img {
         transform: scale(0.8);

@@ -1,16 +1,81 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 /* font-family: 'Poppins', sans-serif; */
 
 #sectionHomepage6 {
-    height: 45vh;
+    height: 400px;
+    font-family: "Poppins", sans-serif;
 }
 
-.sectionHomepage6-container{
+.sectionHomepage6-container {
     padding-top: 3rem;
 }
 
-.sectionHomepage6-Title{
-    font-family: 'Poppins', sans-serif;
+.sectionHomepage6-Title {
     font-weight: 800;
     font-size: 20px;
 }
+
+.sectionHomepage6-link {
+    text-decoration: none;
+    color: black;
+}
+
+.sectionHomepage6-link:hover {
+    color: #8500cc;
+}
+
+.categori-ul {
+    margin-top: -1rem;
+}
+
+.sectionHomepage6-2-desc {
+    margin-top: -0.7rem;
+}
+
+.sectionHomepage6-3-desc {
+    margin-top: -0.7rem;
+}
+
+.sectionHomepage6-4-desc {
+    margin-top: -0.7rem;
+}
+
+/* time to responsive  */
+@media only screen and (max-width: 1400px) {
+}
+@media only screen and (max-width: 900px) {
+    .sectionHomepage6-12-desc {
+        margin-top: -1rem;
+    }
+    .categori-ul {
+        margin-top: -1rem;
+    }
+    .sectionHomepage6-2-desc {
+        margin-top: -1rem;
+    }
+}
+@media only screen and (max-width: 790px) {
+    .sectionHomepage6-container {
+        margin-top: -1rem;
+    }
+    #sectionHomepage6 {
+        height: 440px;
+    }
+}
+@media only screen and (max-width: 586px) {
+    .sectionHomepage6-Title {
+        margin-top: -0.7rem;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .sectionHomepage6-Title {
+        margin-top: -0.2rem;
+    }
+}
+@media only screen and (max-width: 392px) {
+}
+@media only screen and (max-width: 392px) {
+}
+@media only screen and (max-width: 392px) {
+}
+/* end of responsive  */
