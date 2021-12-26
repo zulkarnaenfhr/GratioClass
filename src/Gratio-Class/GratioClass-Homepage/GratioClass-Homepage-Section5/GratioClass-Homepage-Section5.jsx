@@ -8,12 +8,12 @@ export default class GratioClassHomepageSection5 extends Component {
             <div id="sectionHomepage5">
                 <div className="container">
                     <div className="sectionHomepage5-container">
-                        <h1 className="sectionHomepage5-Title">
+                        <h1 className="sectionHomepage5-Title" data-aos="fade-up">
                             What They Say
                             <br />
                             About Us ?
                         </h1>
-                        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-aos="fade-up" data-aos="fade-up" data-aos-delay="500">
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>

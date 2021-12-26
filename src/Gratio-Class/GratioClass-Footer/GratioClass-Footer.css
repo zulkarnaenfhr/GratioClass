@@ -1,15 +1,21 @@
-#GratioClass-Footer{
+#GratioClass-Footer {
     height: 97px;
     background-color: #610094;
 }
 
-.footerContent{
+.footerContent {
     display: flex;
     height: 100%;
     justify-content: center;
     align-items: center;
 }
 
-.footerContent p{
+.footerContent p {
     color: white;
+}
+
+@media only screen and (max-width: 560px) {
+    #GratioClass-Footer {
+        text-align: center;
+    }
 }

@@ -6,9 +6,11 @@ export default class GratioClassHomepageSection4 extends Component {
         return (
             <div id="sectionHomepage4">
                 <div className="container sectionHomepage4-container">
-                    <h1 className="sectionHomepage4-Title">Flash Sale Today</h1>
+                    <h1 className="sectionHomepage4-Title" data-aos="fade-up" data-aos-offset="100">
+                        Flash Sale Today
+                    </h1>
                     <div className="row cardFlashSaleRow">
-                        <div className="col-md-6 flashSaleCardLeft">
+                        <div className="col-md-6 flashSaleCardLeft" data-aos="fade-right" data-aos-delay="500" data-aos-offset="100">
                             <div className="flashSale-card flashSale-card-left-container">
                                 <div className="flashSale-card-left-content">
                                     <div className="row container flashSale-card-left-content-firstRow">
@@ -43,7 +45,7 @@ export default class GratioClassHomepageSection4 extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6 flashSaleCardRight">
+                        <div className="col-md-6 flashSaleCardRight" data-aos="fade-left" data-aos-delay="500" data-aos-offset="100">
                             <div className="flashSale-card flashSale-card-right-container">
                                 <div className="container flashSale-card-right-content">
                                     <div>

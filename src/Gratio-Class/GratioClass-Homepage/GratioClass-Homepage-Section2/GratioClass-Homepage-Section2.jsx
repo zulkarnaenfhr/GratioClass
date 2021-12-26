@@ -10,10 +10,10 @@ export default class GratioClassHomepageSection2 extends Component {
                         <div className="col-md-4">
                             <div id="sectionHomepage2-LeftSide">
                                 <div>
-                                    <h1 className="sectionHomepage2-title" data-aos="zoom-in-up" data-aos-offset="100" data-aos-duration="700">
+                                    <h1 className="sectionHomepage2-title" data-aos="zoom-in-up" data-aos-offset="100" data-aos-duration="500">
                                         halo semuanya
                                     </h1>
-                                    <p className="sectionHomepage2-penjelasan" data-aos="zoom-in-up" data-aos-offset="100" data-aos-duration="700" data-aos-delay="700">
+                                    <p className="sectionHomepage2-penjelasan" data-aos="zoom-in-up" data-aos-offset="100" data-aos-duration="500" data-aos-delay="500">
                                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, ut culpa nobis magnam molestias odit.
                                     </p>
                                 </div>
@@ -25,8 +25,8 @@ export default class GratioClassHomepageSection2 extends Component {
                                     <div className="row">
                                         <div className="col-md-6 gratioFeatures">
                                             <div>
-                                                <i class="far fa-clock" data-aos="zoom-in-up" data-aos-offset="100" data-aos-duration="700"></i>
-                                                <h3 data-aos="zoom-in-up" data-aos-offset="100" data-aos-duration="700" data-aos-delay="500">
+                                                <i class="far fa-clock" data-aos="zoom-in-up" data-aos-offset="100" data-aos-duration="500"></i>
+                                                <h3 data-aos="zoom-in-up" data-aos-offset="100" data-aos-duration="500" data-aos-delay="500">
                                                     lorem
                                                 </h3>
                                                 <p data-aos="zoom-in-up" data-aos-offset="100" data-aos-duration="700" data-aos-delay="1000">
@@ -36,8 +36,8 @@ export default class GratioClassHomepageSection2 extends Component {
                                         </div>
                                         <div className="col-md-6 gratioFeatures">
                                             <div>
-                                                <i class="fas fa-chalkboard-teacher" data-aos="zoom-in-up" data-aos-offset="100" data-aos-duration="700"></i>
-                                                <h3 data-aos="zoom-in-up" data-aos-offset="100" data-aos-duration="700" data-aos-delay="500">
+                                                <i class="fas fa-chalkboard-teacher" data-aos="zoom-in-up" data-aos-offset="100" data-aos-duration="500"></i>
+                                                <h3 data-aos="zoom-in-up" data-aos-offset="100" data-aos-duration="500" data-aos-delay="500">
                                                     lorem
                                                 </h3>
                                                 <p data-aos="zoom-in-up" data-aos-offset="100" data-aos-duration="700" data-aos-delay="1000">
@@ -49,8 +49,8 @@ export default class GratioClassHomepageSection2 extends Component {
                                     <div className="row">
                                         <div className="col-md-6 gratioFeatures">
                                             <div>
-                                                <i class="fas fa-chart-line" data-aos="zoom-in-up" data-aos-duration="700"></i>
-                                                <h3 data-aos="zoom-in-up" data-aos-offset="100" data-aos-duration="700" data-aos-delay="500">
+                                                <i class="fas fa-chart-line" data-aos="zoom-in-up" data-aos-duration="500"></i>
+                                                <h3 data-aos="zoom-in-up" data-aos-offset="100" data-aos-duration="500" data-aos-delay="500">
                                                     lorem
                                                 </h3>
                                                 <p data-aos="zoom-in-up" data-aos-offset="100" data-aos-duration="700" data-aos-delay="1000">
@@ -60,8 +60,8 @@ export default class GratioClassHomepageSection2 extends Component {
                                         </div>
                                         <div className="col-md-6 gratioFeatures">
                                             <div>
-                                                <i class="fab fa-connectdevelop" data-aos="zoom-in-up" data-aos-duration="700"></i>
-                                                <h3 data-aos="zoom-in-up" data-aos-offset="100" data-aos-duration="700" data-aos-delay="500">
+                                                <i class="fab fa-connectdevelop" data-aos="zoom-in-up" data-aos-duration="500"></i>
+                                                <h3 data-aos="zoom-in-up" data-aos-offset="100" data-aos-duration="500" data-aos-delay="500">
                                                     lorem
                                                 </h3>
                                                 <p data-aos="zoom-in-up" data-aos-offset="100" data-aos-duration="700" data-aos-delay="1000">
