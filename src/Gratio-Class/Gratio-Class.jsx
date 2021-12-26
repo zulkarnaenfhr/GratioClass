@@ -7,6 +7,7 @@ import HomePage from "./GratioClass-Homepage/GratioClass-Homepage";
 import Showcase from "./GratioClass-Showcase/GratioClass-Showcase";
 import "./Gratio-Class.css";
 import Maintenance from "./GratioClass-Maintenance/Maintenance";
+import GratioClassFooter from "./GratioClass-Footer/GratioClass-Footer";
 
 export default class GratioClass extends Component {
     render() {
@@ -51,6 +52,7 @@ export default class GratioClass extends Component {
                     <Route path="/Event" element={<Event />} />
                     <Route path="/maintenance" element={<Maintenance />} />
                 </Routes>
+                <GratioClassFooter />
             </div>
         );
     }
