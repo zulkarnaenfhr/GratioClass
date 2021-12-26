@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "./GratioClass-Homepage-Section6.css";
+import { Link, Route, Routes } from "react-router-dom";
+import Maintenance from "../../GratioClass-Maintenance/Maintenance";
 
 export default class GratioClassHomepageSection6 extends Component {
     render() {
@@ -26,41 +28,50 @@ export default class GratioClassHomepageSection6 extends Component {
                                 Category
                             </p>
                             <ul className="categori-ul" data-aos="fade-up" data-aos-delay="500">
-                                <li>
+                                {/* <li>
                                     <a className="sectionHomepage6-link" href="">
                                         Graphic Design
                                     </a>
+                                </li> */}
+                                <li>
+                                    <Link to="/maintenance">Graphic Design</Link>
                                 </li>
                                 <li>
-                                    <a className="sectionHomepage6-link" href="">
+                                    {/* <a className="sectionHomepage6-link" href="">
                                         UI/UX Desiign
-                                    </a>
+                                    </a> */}
+                                    <Link to="/maintenance">UI/UX Desiign</Link>
                                 </li>
                                 <li>
-                                    <a className="sectionHomepage6-link" href="">
+                                    {/* <a className="sectionHomepage6-link" href="">
                                         3D Design
-                                    </a>
+                                    </a> */}
+                                    <Link to="/maintenance">3D Design</Link>
                                 </li>
                                 <li>
-                                    <a className="sectionHomepage6-link" href="">
+                                    {/* <a className="sectionHomepage6-link" href="">
                                         Video Editing & Motion
-                                    </a>
+                                    </a> */}
+                                    <Link to="/maintenance">Video Editing & Motion</Link>
                                 </li>
                             </ul>
                             <p className="sectionHomepage6-2-desc" data-aos="fade-up" data-aos-delay="500">
-                                <a className="sectionHomepage6-link" href="">
+                                {/* <a className="sectionHomepage6-link" href="">
                                     All Class
-                                </a>
+                                </a> */}
+                                <Link to="/maintenance">All Class</Link>
                             </p>
                             <p className="sectionHomepage6-2-desc" data-aos="fade-up" data-aos-delay="500">
-                                <a className="sectionHomepage6-link" href="">
+                                {/* <a className="sectionHomepage6-link" href="">
                                     Showcase
-                                </a>
+                                </a> */}
+                                <Link to="/maintenance">Showcase</Link>
                             </p>
                             <p className="sectionHomepage6-2-desc" data-aos="fade-up" data-aos-delay="500">
-                                <a className="sectionHomepage6-link" href="">
+                                {/* <a className="sectionHomepage6-link" href="">
                                     Event
-                                </a>
+                                </a> */}
+                                <Link to="/maintenance">Event</Link>
                             </p>
                         </div>
                         <div className="col-lg-3 col-md-6">
@@ -76,14 +87,16 @@ export default class GratioClassHomepageSection6 extends Component {
                                         Support
                                     </p>
                                     <p className="sectionHomepage6-3-desc" data-aos="fade-up" data-aos-delay="500">
-                                        <a className="sectionHomepage6-link" href="">
+                                        {/* <a className="sectionHomepage6-link" href="">
                                             Whatsapp
-                                        </a>
+                                        </a> */}
+                                        <Link to="/maintenance">Whatsapp</Link>
                                     </p>
                                     <p className="sectionHomepage6-3-desc" data-aos="fade-up" data-aos-delay="500">
-                                        <a className="sectionHomepage6-link" href="">
+                                        {/* <a className="sectionHomepage6-link" href="">
                                             FAQ
-                                        </a>
+                                        </a> */}
+                                        <Link to="/maintenance">FAQ</Link>
                                     </p>
                                 </div>
                                 <div className="col-lg-12 col-md-6">
@@ -97,6 +110,9 @@ export default class GratioClassHomepageSection6 extends Component {
                             </div>
                         </div>
                     </div>
+                    <Routes>
+                        <Route path="/Homepage/maintenance" element={<Maintenance />} />
+                    </Routes>
                 </div>
             </div>
         );

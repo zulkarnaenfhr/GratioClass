@@ -4,6 +4,7 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import GratioClass from "./Gratio-Class/Gratio-Class";
 import { BrowserRouter } from "react-router-dom";
+import Maintenance from "./Gratio-Class/GratioClass-Maintenance/Maintenance";
 
 ReactDOM.render(
     <BrowserRouter>
@@ -13,7 +14,7 @@ ReactDOM.render(
 );
 // ReactDOM.render(
 //     <BrowserRouter>
-//         <AppAos />
+//         <Maintenance />
 //     </BrowserRouter>,
 //     document.getElementById("root")
 // );

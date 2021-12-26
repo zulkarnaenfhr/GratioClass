@@ -1,0 +1,34 @@
+#Maintenance {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.Maintenance-container {
+    width: 80%;
+}
+
+/* time to responsive  */
+@media only screen and (max-width: 1400px) {
+    .Maintenance-container {
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 995px) {
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 586px) {
+    #Maintenance {
+        transform: scale(0.9);
+    }
+    .Maintenance-container {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 392px) {
+}
+/* end of responsive  */

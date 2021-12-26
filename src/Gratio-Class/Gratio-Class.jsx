@@ -6,6 +6,7 @@ import Event from "./GratioClass-Event/GratioClass-Event";
 import HomePage from "./GratioClass-Homepage/GratioClass-Homepage";
 import Showcase from "./GratioClass-Showcase/GratioClass-Showcase";
 import "./Gratio-Class.css";
+import Maintenance from "./GratioClass-Maintenance/Maintenance";
 
 export default class GratioClass extends Component {
     render() {
@@ -22,16 +23,16 @@ export default class GratioClass extends Component {
                         <div class="collapse navbarCollapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <Link to="/">Home</Link>
+                                    <Link to="/Homepage">Home</Link>
                                 </li>
                                 <li class="nav-item">
-                                    <Link to="/Class">Class</Link>
+                                    <Link to="/maintenance">Class</Link>
                                 </li>
                                 <li class="nav-item">
-                                    <Link to="/Showcase">Showcase</Link>
+                                    <Link to="/maintenance">Showcase</Link>
                                 </li>
                                 <li class="nav-item">
-                                    <Link to="/Event">Event</Link>
+                                    <Link to="/maintenance">Event</Link>
                                 </li>
                                 <li class="nav-item"></li>
                                 <li class="nav-profile">
@@ -44,10 +45,11 @@ export default class GratioClass extends Component {
                     </div>
                 </nav>
                 <Routes>
-                    <Route path="/" element={<HomePage />} />
+                    <Route path="/Homepage" element={<HomePage />} />
                     <Route path="/Class" element={<GratioClassClass />} />
                     <Route path="/Showcase" element={<Showcase />} />
                     <Route path="/Event" element={<Event />} />
+                    <Route path="/maintenance" element={<Maintenance />} />
                 </Routes>
             </div>
         );
