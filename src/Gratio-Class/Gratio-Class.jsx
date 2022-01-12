@@ -46,6 +46,7 @@ export default class GratioClass extends Component {
                     </div>
                 </nav>
                 <Routes>
+                    <Route path="/" element={<HomePage />} />
                     <Route path="/Homepage" element={<HomePage />} />
                     <Route path="/Class" element={<GratioClassClass />} />
                     <Route path="/Showcase" element={<Showcase />} />

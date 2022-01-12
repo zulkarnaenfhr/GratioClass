@@ -34,44 +34,58 @@ export default class GratioClassHomepageSection6 extends Component {
                                     </a>
                                 </li> */}
                                 <li>
-                                    <Link to="/maintenance">Graphic Design</Link>
+                                    <Link className="Homepage-Section6-Link" to="/maintenance">
+                                        Graphic Design
+                                    </Link>
                                 </li>
                                 <li>
                                     {/* <a className="sectionHomepage6-link" href="">
                                         UI/UX Desiign
                                     </a> */}
-                                    <Link to="/maintenance">UI/UX Desiign</Link>
+                                    <Link className="Homepage-Section6-Link" to="/maintenance">
+                                        UI/UX Desiign
+                                    </Link>
                                 </li>
                                 <li>
                                     {/* <a className="sectionHomepage6-link" href="">
                                         3D Design
                                     </a> */}
-                                    <Link to="/maintenance">3D Design</Link>
+                                    <Link className="Homepage-Section6-Link" to="/maintenance">
+                                        3D Design
+                                    </Link>
                                 </li>
                                 <li>
                                     {/* <a className="sectionHomepage6-link" href="">
                                         Video Editing & Motion
                                     </a> */}
-                                    <Link to="/maintenance">Video Editing & Motion</Link>
+                                    <Link className="Homepage-Section6-Link" to="/maintenance">
+                                        Video Editing & Motion
+                                    </Link>
                                 </li>
                             </ul>
                             <p className="sectionHomepage6-2-desc" data-aos="fade-up" data-aos-delay="500">
                                 {/* <a className="sectionHomepage6-link" href="">
                                     All Class
                                 </a> */}
-                                <Link to="/maintenance">All Class</Link>
+                                <Link className="Homepage-Section6-Link" to="/maintenance">
+                                    All Class
+                                </Link>
                             </p>
                             <p className="sectionHomepage6-2-desc" data-aos="fade-up" data-aos-delay="500">
                                 {/* <a className="sectionHomepage6-link" href="">
                                     Showcase
                                 </a> */}
-                                <Link to="/maintenance">Showcase</Link>
+                                <Link className="Homepage-Section6-Link" to="/maintenance">
+                                    Showcase
+                                </Link>
                             </p>
                             <p className="sectionHomepage6-2-desc" data-aos="fade-up" data-aos-delay="500">
                                 {/* <a className="sectionHomepage6-link" href="">
                                     Event
                                 </a> */}
-                                <Link to="/maintenance">Event</Link>
+                                <Link className="Homepage-Section6-Link" to="/maintenance">
+                                    Event
+                                </Link>
                             </p>
                         </div>
                         <div className="col-lg-3 col-md-6">
@@ -90,13 +104,17 @@ export default class GratioClassHomepageSection6 extends Component {
                                         {/* <a className="sectionHomepage6-link" href="">
                                             Whatsapp
                                         </a> */}
-                                        <Link to="/maintenance">Whatsapp</Link>
+                                        <Link className="Homepage-Section6-Link" to="/maintenance">
+                                            Whatsapp
+                                        </Link>
                                     </p>
                                     <p className="sectionHomepage6-3-desc" data-aos="fade-up" data-aos-delay="500">
                                         {/* <a className="sectionHomepage6-link" href="">
                                             FAQ
                                         </a> */}
-                                        <Link to="/maintenance">FAQ</Link>
+                                        <Link className="Homepage-Section6-Link" to="/maintenance">
+                                            FAQ
+                                        </Link>
                                     </p>
                                 </div>
                                 <div className="col-lg-12 col-md-6">

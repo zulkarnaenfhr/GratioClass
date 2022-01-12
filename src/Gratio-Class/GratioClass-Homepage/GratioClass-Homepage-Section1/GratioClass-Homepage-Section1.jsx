@@ -24,7 +24,7 @@ export default class GratioClassHomepageSection1 extends Component {
                         </div>
                         <div className="col-xl-6 col-lg-12">
                             <div id="sectionHomepage1-RightSide">
-                                <h1>gambar</h1>
+                                <h1>Logo Gratio Class</h1>
                             </div>
                         </div>
                     </div>
